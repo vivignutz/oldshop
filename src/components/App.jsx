@@ -12,7 +12,7 @@ function App() {
           <img src={logo} className="logo" alt="shop logo" />
         </a>
       </div>
-      <h1>Oldshop</h1>
+      <h1>Oldshop - Your shop for vintage stuffs!</h1>
       <p>Under construction</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
