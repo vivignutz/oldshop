@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import logo from '../assets/static/logo.png'
+import Header from './Header';
+import Footer from './Footer';
 import '../App.css'
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <div>
         <a href="https://redi-school.org" target="_blank" rel="noreferrer">
           <img src={logo} className="logo" alt="shop logo" />
@@ -19,6 +22,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Footer />
     </>
   )
 }
