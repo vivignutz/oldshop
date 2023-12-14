@@ -7,7 +7,7 @@ function Header() {
         <header>
         <div>
             <a href="https://redi-school.org" target="_blank" rel="noreferrer">
-            <img src={logo} className="logo" alt="shop logo" />
+                <img src={logo} className="logo" alt="Shop logo" />
             </a>
         </div>
         <nav>
